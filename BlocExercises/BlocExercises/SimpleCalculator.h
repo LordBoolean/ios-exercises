@@ -11,15 +11,15 @@
 
 @interface SimpleCalculator : NSObject
 
-/**
- Increases a number by 1.
+
+/** Increases a number by 1.
  
- Example usage:
+ //Example usage:
  
- @code
+ //@code
  NSInteger newInteger = [calc increaseNumberBy1:6];
  // newInteger is 7.
- @endcode
+ //@endcode
  
  @param number
  The number to increase
